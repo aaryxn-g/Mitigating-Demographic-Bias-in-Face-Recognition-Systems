@@ -563,7 +563,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Project Maintainer**: Aaryan Gupta
 - **Email**: aaryangupta122@gmail.com
-- **Twitter**: [@aaryxn_g]
+- **LinkedIn**: [Aaryan Gupta](https://www.linkedin.com/in/aaryan-gupta-4a4b9028a/)
+
 - **Issues**: [GitHub Issues](https://github.com/aaryxn-g/UTKFACE-Bias-Detection/issues)
 
 ## 📖 Citation
@@ -928,7 +929,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Project Maintainer**: Aaryan Gupta
 - **Email**: aaryangupta122@gmail.com
-- **Twitter**: [@aaryxn_g]
+- **LinkedIn**: [Aaryan Gupta](https://www.linkedin.com/in/aaryan-gupta-4a4b9028a/)
+
 - **Issues**: [GitHub Issues](https://github.com/aaryxn-g/UTKFACE-Bias-Detection/issues)
 
 ## 📖 Citation
