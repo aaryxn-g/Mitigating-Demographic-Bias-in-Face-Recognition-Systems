@@ -1,0 +1,38 @@
+# Ignore raw dataset (too large for GitHub)
+crop_part1/
+
+# Ignore development and debug files
+incorrect mitgation/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore large analysis files not needed for reproduction
+Bias_Mitigation_Report.log
+Bias_Mitigation_Report_Clean.tex
+utkface_age_analysis.csv
+
+# Ignore presentation files (mentioned in FINAL REPORT.pdf)
+final_presentation.md
+bias_detection_presentation.md
+
+# Ignore analysis reports (redundant with FINAL REPORT.pdf)
+class_collapse_analysis.md
+fairness_comparison.md
+project_mitigation_report.md
