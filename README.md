@@ -1,4 +1,4 @@
-# FairFace: Bias Detection & Mitigation
+# Mitigating Demographic Bias in Face Recognition Systems
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9%2B-red)](https://pytorch.org)
@@ -572,7 +572,7 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @misc{utkface_bias_detection,
-  title={UTKFace Bias Detection and Mitigation Framework},
+  title={Mitigating Demographic Bias in Face Recognition Systems},
   author={[Your Name]},
   year={2025},
   url={https://github.com/yourusername/UTKFACE-Bias-Detection},
@@ -937,7 +937,7 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @misc{utkface_bias_detection,
-  title={UTKFace Bias Detection and Mitigation Framework},
+  title={Mitigating Demographic Bias in Face Recognition Systems},
   author={[Your Name]},
   year={2025},
   url={https://github.com/yourusername/UTKFACE-Bias-Detection},
@@ -947,11 +947,6 @@ If you use this work in your research, please cite:
 
 ---
 
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/UTKFACE-Bias-Detection&type=Date)](https://star-history.com/#yourusername/UTKFACE-Bias-Detection&Date)
-
----
 
 **⚡ Built with passion for ethical AI and fair machine learning systems.**
 
