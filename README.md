@@ -316,7 +316,7 @@ Where:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/UTKFACE-Bias-Detection.git
+git clone https://github.com/aaryxn-g/UTKFACE-Bias-Detection.git
 cd UTKFACE-Bias-Detection
 
 # Create virtual environment
@@ -561,10 +561,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Maintainer**: [Your Name]
-- **Email**: [your.email@example.com]
-- **Twitter**: [@yourhandle]
-- **Issues**: [GitHub Issues](https://github.com/yourusername/UTKFACE-Bias-Detection/issues)
+- **Project Maintainer**: Aaryan Gupta
+- **Email**: aaryangupta122@gmail.com
+- **Twitter**: [@aaryxn_g]
+- **Issues**: [GitHub Issues](https://github.com/aaryxn-g/UTKFACE-Bias-Detection/issues)
 
 ## 📖 Citation
 
@@ -573,9 +573,9 @@ If you use this work in your research, please cite:
 ```bibtex
 @misc{utkface_bias_detection,
   title={Mitigating Demographic Bias in Face Recognition Systems},
-  author={[Your Name]},
+  author={Aaryan Gupta},
   year={2025},
-  url={https://github.com/yourusername/UTKFACE-Bias-Detection},
+  url={https://github.com/aaryxn-g/UTKFACE-Bias-Detection},
   note={Comprehensive framework for detecting and mitigating demographic bias in facial recognition}
 }
 ```
@@ -584,7 +584,7 @@ If you use this work in your research, please cite:
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/UTKFACE-Bias-Detection&type=Date)](https://star-history.com/#yourusername/UTKFACE-Bias-Detection&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=aaryxn-g/UTKFACE-Bias-Detection&type=Date)](https://star-history.com/#aaryxn-g/UTKFACE-Bias-Detection&Date)
 
 ---
 
@@ -662,7 +662,7 @@ UTKFACE-Bias-Detection/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/UTKFACE-Bias-Detection.git
+git clone https://github.com/aaryxn-g/UTKFACE-Bias-Detection.git
 cd UTKFACE-Bias-Detection
 
 # Create virtual environment
@@ -926,10 +926,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Maintainer**: [Your Name]
-- **Email**: [your.email@example.com]
-- **Twitter**: [@yourhandle]
-- **Issues**: [GitHub Issues](https://github.com/yourusername/UTKFACE-Bias-Detection/issues)
+- **Project Maintainer**: Aaryan Gupta
+- **Email**: aaryangupta122@gmail.com
+- **Twitter**: [@aaryxn_g]
+- **Issues**: [GitHub Issues](https://github.com/aaryxn-g/UTKFACE-Bias-Detection/issues)
 
 ## 📖 Citation
 
@@ -938,9 +938,9 @@ If you use this work in your research, please cite:
 ```bibtex
 @misc{utkface_bias_detection,
   title={Mitigating Demographic Bias in Face Recognition Systems},
-  author={[Your Name]},
+  author={Aaryan Gupta},
   year={2025},
-  url={https://github.com/yourusername/UTKFACE-Bias-Detection},
+  url={https://github.com/aaryxn-g/UTKFACE-Bias-Detection},
   note={Comprehensive framework for detecting and mitigating demographic bias in facial recognition}
 }
 ```
