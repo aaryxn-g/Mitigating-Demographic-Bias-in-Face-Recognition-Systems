@@ -161,7 +161,7 @@ This repository contains a **complete, production-ready research framework** wit
 **Purpose**: Generated analysis results and weight distributions
 
 **Files**:
-- **`weight_distribution_conservative.png`** (718KB) - Sample weight distribution visualization
+- **`results/weight_distribution_conservative.png`** (718KB) - Sample weight distribution visualization
 - **`fairness_sample_weights_conservative.csv`** (951KB) - Computed sample weights for all training samples
 - **`fairness_sample_weights_conservative_stats.json`** (1KB) - Weight distribution statistics
 
@@ -243,7 +243,7 @@ This repository contains a **complete, production-ready research framework** wit
 
 ### Sample Weight Distribution Analysis
 
-![Weight Distribution](weight_distribution_conservative.png)
+![Weight Distribution](results/weight_distribution_conservative.png)
 
 **Figure 12**: Sample weight distribution computed through influence function analysis. Higher weights for minority samples counteract their natural underrepresentation during training, enabling more balanced gradient updates.
 
@@ -379,7 +379,7 @@ python src/compute_sample_weights_balanced.py \
     --influence_csv "Detection code/all_influence/full_dataset_influence_scores.csv"
 ```
 **Outputs**: `results/`
-- `weight_distribution_conservative.png` - Weight distribution visualization
+- `results/weight_distribution_conservative.png` - Weight distribution visualization
 - `fairness_sample_weights_conservative.csv` - Computed weights
 - Statistical analysis of weight distribution
 
@@ -637,7 +637,7 @@ UTKFACE-Bias-Detection/
 │   ├── compute_sample_weights_balanced.py # Sample weight computation (19KB)
 │   └── run_advanced_eval.py          # Evaluation runner (2KB)
 ├── 📁 results/                      # Analysis outputs and visualizations
-│   ├── weight_distribution_conservative.png # Weight distribution (718KB)
+│   ├── results/weight_distribution_conservative.png # Weight distribution (718KB)
 │   ├── fairness_sample_weights_conservative.csv # Sample weights (951KB)
 │   └── fairness_sample_weights_conservative_stats.json # Weight stats (1KB)
 ├── 📁 advanced_eval/                 # Advanced evaluation results
