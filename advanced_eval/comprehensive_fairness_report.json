@@ -1,0 +1,162 @@
+{
+  "equalized_odds": {
+    "fpr": {
+      "Caucasian": 0.0,
+      "African American": 0.0,
+      "Asian": 0.0,
+      "Indian": 0.0,
+      "Others": 0.0
+    },
+    "fnr": {
+      "Caucasian": 0.0773067331670823,
+      "African American": 0.3888888888888889,
+      "Asian": 0.10483870967741936,
+      "Indian": 0.19047619047619047,
+      "Others": 0.532051282051282
+    },
+    "tpr": {
+      "Caucasian": 0.9226932668329177,
+      "African American": 0.6111111111111112,
+      "Asian": 0.8951612903225806,
+      "Indian": 0.8095238095238095,
+      "Others": 0.46794871794871795
+    },
+    "tnr": {
+      "Caucasian": 0.0,
+      "African American": 0.0,
+      "Asian": 0.0,
+      "Indian": 0.0,
+      "Others": 0.0
+    },
+    "fpr_parity": 0.0,
+    "fnr_parity": 0.17487216560861724,
+    "tpr_parity": 0.17487216560861724
+  },
+  "demographic_parity": {
+    "positive_prediction_rate": {
+      "Caucasian": 0.9226932668329177,
+      "African American": 0.6111111111111112,
+      "Asian": 0.8951612903225806,
+      "Indian": 0.8095238095238095,
+      "Others": 0.46794871794871795
+    },
+    "prediction_rate_parity": 0.17487216560861724
+  },
+  "per_race_metrics": {
+    "Caucasian": {
+      "precision": 1.0,
+      "recall": 0.9226932668329177,
+      "f1": 0.959792477302205,
+      "accuracy": 0.9226932668329177,
+      "tp": 740,
+      "fp": 0,
+      "tn": 0,
+      "fn": 62,
+      "support": 802
+    },
+    "African American": {
+      "precision": 1.0,
+      "recall": 0.6111111111111112,
+      "f1": 0.7586206896551725,
+      "accuracy": 0.6111111111111112,
+      "tp": 44,
+      "fp": 0,
+      "tn": 0,
+      "fn": 28,
+      "support": 72
+    },
+    "Asian": {
+      "precision": 1.0,
+      "recall": 0.8951612903225806,
+      "f1": 0.9446808510638298,
+      "accuracy": 0.8951612903225806,
+      "tp": 222,
+      "fp": 0,
+      "tn": 0,
+      "fn": 26,
+      "support": 248
+    },
+    "Indian": {
+      "precision": 1.0,
+      "recall": 0.8095238095238095,
+      "f1": 0.8947368421052632,
+      "accuracy": 0.8095238095238095,
+      "tp": 153,
+      "fp": 0,
+      "tn": 0,
+      "fn": 36,
+      "support": 189
+    },
+    "Others": {
+      "precision": 1.0,
+      "recall": 0.46794871794871795,
+      "f1": 0.6375545851528384,
+      "accuracy": 0.46794871794871795,
+      "tp": 73,
+      "fp": 0,
+      "tn": 0,
+      "fn": 83,
+      "support": 156
+    }
+  },
+  "calibration": {
+    "Caucasian": {
+      "ece": 0.2683281704132545,
+      "mce": 0.3934440337694608,
+      "mean_confidence": 0.9817608594894409,
+      "accuracy": 0.9226932668329177
+    },
+    "African American": {
+      "ece": 0.32936195749814823,
+      "mce": 0.7636350631713867,
+      "mean_confidence": 0.9437721967697144,
+      "accuracy": 0.6111111111111112
+    },
+    "Asian": {
+      "ece": 0.23992002551202418,
+      "mce": 0.48165759444236755,
+      "mean_confidence": 0.9690372347831726,
+      "accuracy": 0.8951612903225806
+    },
+    "Indian": {
+      "ece": 0.3172193096065772,
+      "mce": 0.5459418296813965,
+      "mean_confidence": 0.946943998336792,
+      "accuracy": 0.8095238095238095
+    },
+    "Others": {
+      "ece": 0.35028891642015064,
+      "mce": 0.5354140813534076,
+      "mean_confidence": 0.919889509677887,
+      "accuracy": 0.46794871794871795
+    }
+  },
+  "roc_auc": {
+    "Caucasian": {
+      "roc_auc": NaN,
+      "average_precision": 1.0
+    },
+    "African American": {
+      "roc_auc": NaN,
+      "average_precision": 1.0
+    },
+    "Asian": {
+      "roc_auc": NaN,
+      "average_precision": 1.0
+    },
+    "Indian": {
+      "roc_auc": NaN,
+      "average_precision": 1.0000000000000002
+    },
+    "Others": {
+      "roc_auc": NaN,
+      "average_precision": 0.9999999999999999
+    }
+  },
+  "statistical_parity": {
+    "chi2_statistic": 236.2321946575766,
+    "p_value": 6.008985583721341e-50,
+    "degrees_of_freedom": 4,
+    "is_parity": false
+  }
+}
