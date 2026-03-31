@@ -1,11 +1,11 @@
-# UTKFace Bias Detection and Mitigation Framework
+# FairFace: Bias Detection & Mitigation
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9%2B-red)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Dataset](https://img.shields.io/badge/Dataset-UTKFace-orange)](https://susanqq.github.io/UTKFace/)
 
-> **A comprehensive, research-grade framework for detecting, quantifying, and mitigating demographic bias in facial recognition systems using advanced influence function analysis and constrained optimization techniques. This project demonstrates a complete pipeline from raw data analysis through bias detection to novel mitigation strategies, achieving 131.58% improvement in African American recognition accuracy while maintaining majority performance.**
+> **Advanced framework for detecting and mitigating demographic bias in facial recognition using influence function analysis and constrained optimization. Achieves 131.58% improvement for African American subjects while maintaining majority performance.**
 
 ## 🎯 Project Overview
 
