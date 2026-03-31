@@ -1,0 +1,686 @@
+{
+  "total_loss": [
+    1.7033586426657072,
+    1.0982721255750072,
+    0.9190325344095425,
+    0.8077509331459902,
+    0.7392380847006428,
+    0.7201416794134646,
+    0.7419163857187544,
+    0.7055025185857501,
+    0.7253120755662723,
+    0.7302528773035322,
+    0.7617349315662774,
+    0.8426785481219389,
+    0.8443553024408769,
+    0.8920681892609109,
+    0.90117885166285,
+    0.8952832275507402,
+    0.9848381205480926,
+    1.0738902778041606,
+    1.1841804869320929,
+    1.2591637937390074,
+    1.2541243640743955
+  ],
+  "ce_loss": [
+    1.395123823686522,
+    0.7393944011963144,
+    0.5143598736282818,
+    0.3578087786478656,
+    0.24226878439836508,
+    0.1722377035256038,
+    0.1419345196454408,
+    0.10324157135879172,
+    0.06531413659535135,
+    0.06780063505921506,
+    0.030382195807326238,
+    0.04119934605057969,
+    0.040994339701002476,
+    0.01075043609884539,
+    0.021715005546505843,
+    0.01172483796295237,
+    0.014077502037786826,
+    0.007118409594809833,
+    0.008147271544654248,
+    0.008216022340429948,
+    0.005003008703205013
+  ],
+  "fairness_penalty": [
+    0.513724680609849,
+    0.598129517691476,
+    0.6131403691914616,
+    0.6197550187305528,
+    0.6223006374981939,
+    0.6237096489692221,
+    0.6209025799011697,
+    0.6232611298561096,
+    0.6209194168752553,
+    0.6232283981478944,
+    0.6254993234361921,
+    0.6231599389290323,
+    0.6246230312756129,
+    0.6229412957113616,
+    0.6216308985437665,
+    0.624525041969455,
+    0.6237837577352718,
+    0.6231616959279898,
+    0.6245340610037045,
+    0.6254738870932132,
+    0.6245606799514927
+  ],
+  "lambda_values": [
+    0.6,
+    0.66,
+    0.7260000000000001,
+    0.7986000000000002,
+    0.8784600000000002,
+    0.9663060000000003,
+    0.9663060000000003,
+    1.0629366000000005,
+    1.0629366000000005,
+    1.1692302600000006,
+    1.286153286000001,
+    1.286153286000001,
+    1.4147686146000011,
+    1.4147686146000011,
+    1.4147686146000011,
+    1.5562454760600013,
+    1.7118700236660016,
+    1.8830570260326018,
+    2.0,
+    2.0,
+    2.0
+  ],
+  "train_metrics": [
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.00590876861262113,
+        "African American": 0.10903426791277258,
+        "Asian": 0.6494345718901454,
+        "Indian": 0.6027397260273972,
+        "Others": 0.5260115606936416
+      },
+      "accuracy_variance": 0.07137691697733252,
+      "accuracy_std": 0.2671645878055932,
+      "max_min_gap": 0.6435258032775243,
+      "mean_accuracy": 0.37862577902731565,
+      "tradeoff_score": 0.24504348512451904
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.38006230529595014,
+        "Asian": 0.8659127625201939,
+        "Indian": 0.7833904109589042,
+        "Others": 0.7283236994219653
+      },
+      "accuracy_variance": 0.034298953609513454,
+      "accuracy_std": 0.1851997667641983,
+      "max_min_gap": 0.48585045722424375,
+      "mean_accuracy": 0.6894222945492534,
+      "tradeoff_score": 0.5968224111671543
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.5077881619937694,
+        "Asian": 0.9022617124394184,
+        "Indian": 0.8561643835616438,
+        "Others": 0.8485549132947977
+      },
+      "accuracy_variance": 0.024885290036820624,
+      "accuracy_std": 0.15775072119271158,
+      "max_min_gap": 0.394473550445649,
+      "mean_accuracy": 0.7786922928224074,
+      "tradeoff_score": 0.6998169322260516
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.6542056074766355,
+        "Asian": 0.9394184168012925,
+        "Indian": 0.916095890410959,
+        "Others": 0.8867052023121387
+      },
+      "accuracy_variance": 0.01301096026643036,
+      "accuracy_std": 0.11406559633136698,
+      "max_min_gap": 0.285212809324657,
+      "mean_accuracy": 0.8491062792502564,
+      "tradeoff_score": 0.7920734810845729
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7601246105919003,
+        "Asian": 0.9604200323101777,
+        "Indian": 0.940068493150685,
+        "Others": 0.9317919075144508
+      },
+      "accuracy_variance": 0.006454373388100089,
+      "accuracy_std": 0.08033911493226752,
+      "max_min_gap": 0.2002954217182774,
+      "mean_accuracy": 0.8981012608918034,
+      "tradeoff_score": 0.8579317034256697
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.8411214953271028,
+        "Asian": 0.9773828756058158,
+        "Indian": 0.961472602739726,
+        "Others": 0.9421965317919075
+      },
+      "accuracy_variance": 0.002820656143257235,
+      "accuracy_std": 0.05310984977626311,
+      "max_min_gap": 0.13626138027871304,
+      "mean_accuracy": 0.9305433763661379,
+      "tradeoff_score": 0.9039884514780063
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.8753894080996885,
+        "Asian": 0.9741518578352181,
+        "Indian": 0.9683219178082192,
+        "Others": 0.9468208092485549
+      },
+      "accuracy_variance": 0.001546011874714929,
+      "accuracy_std": 0.03931935750638518,
+      "max_min_gap": 0.09876244973552961,
+      "mean_accuracy": 0.9411709982479202,
+      "tradeoff_score": 0.9215113194947275
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9221183800623053,
+        "Asian": 0.9903069466882067,
+        "Indian": 0.9751712328767124,
+        "Others": 0.9734104046242774
+      },
+      "accuracy_variance": 0.0006633025672715164,
+      "accuracy_std": 0.025754661078560448,
+      "max_min_gap": 0.06818856662590145,
+      "mean_accuracy": 0.9652517410628755,
+      "tradeoff_score": 0.9523744105235953
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9750778816199377,
+        "Asian": 0.9903069466882067,
+        "Indian": 0.9845890410958904,
+        "Others": 0.9745664739884393
+      },
+      "accuracy_variance": 4.397230573714115e-05,
+      "accuracy_std": 0.006631161718518193,
+      "max_min_gap": 0.015740472699767416,
+      "mean_accuracy": 0.9811350858481186,
+      "tradeoff_score": 0.9778195049888595
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9688473520249221,
+        "Asian": 0.9959612277867528,
+        "Indian": 0.9914383561643836,
+        "Others": 0.9803468208092485
+      },
+      "accuracy_variance": 0.00011031510866778928,
+      "accuracy_std": 0.010503099955146065,
+      "max_min_gap": 0.027113875761830664,
+      "mean_accuracy": 0.9841484391963268,
+      "tradeoff_score": 0.9788968892187537
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9688473520249221,
+        "Asian": 0.9951534733441034,
+        "Indian": 0.9940068493150684,
+        "Others": 0.991907514450867
+      },
+      "accuracy_variance": 0.00011706510103349492,
+      "accuracy_std": 0.010819662704238746,
+      "max_min_gap": 0.026306121319181308,
+      "mean_accuracy": 0.9874787972837402,
+      "tradeoff_score": 0.9820689659316209
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9844236760124611,
+        "Asian": 0.9983844911147012,
+        "Indian": 0.9931506849315068,
+        "Others": 0.9907514450867052
+      },
+      "accuracy_variance": 2.5157385944414566e-05,
+      "accuracy_std": 0.005015713901770571,
+      "max_min_gap": 0.01396081510224012,
+      "mean_accuracy": 0.9916775742863436,
+      "tradeoff_score": 0.9891697173354583
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9750778816199377,
+        "Asian": 0.9967689822294022,
+        "Indian": 0.9922945205479452,
+        "Others": 0.991907514450867
+      },
+      "accuracy_variance": 6.837234330443314e-05,
+      "accuracy_std": 0.00826875705922197,
+      "max_min_gap": 0.021691100609464553,
+      "mean_accuracy": 0.9890122247120381,
+      "tradeoff_score": 0.9848778461824271
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9937694704049844,
+        "Asian": 0.9983844911147012,
+        "Indian": 0.9991438356164384,
+        "Others": 0.9953757225433526
+      },
+      "accuracy_variance": 4.786889501814177e-06,
+      "accuracy_std": 0.002187896135974964,
+      "max_min_gap": 0.0053743652114539575,
+      "mean_accuracy": 0.9966683799198692,
+      "tradeoff_score": 0.9955744318518818
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9937694704049844,
+        "Asian": 0.9983844911147012,
+        "Indian": 0.9982876712328768,
+        "Others": 0.991907514450867
+      },
+      "accuracy_variance": 7.990402262734314e-06,
+      "accuracy_std": 0.002826729959287642,
+      "max_min_gap": 0.0064769766638341775,
+      "mean_accuracy": 0.9955872868008574,
+      "tradeoff_score": 0.9941739218212136
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 1.0,
+        "Asian": 0.9983844911147012,
+        "Indian": 0.9991438356164384,
+        "Others": 0.9953757225433526
+      },
+      "accuracy_variance": 3.0346748078768503e-06,
+      "accuracy_std": 0.0017420318044963617,
+      "max_min_gap": 0.0046242774566473965,
+      "mean_accuracy": 0.9982260123186231,
+      "tradeoff_score": 0.9973549964163749
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9968847352024922,
+        "Asian": 0.9991922455573505,
+        "Indian": 0.9965753424657534,
+        "Others": 0.9965317919075144
+      },
+      "accuracy_variance": 1.2170618086034266e-06,
+      "accuracy_std": 0.0011032052431906886,
+      "max_min_gap": 0.0026604536498361364,
+      "mean_accuracy": 0.9972960287832776,
+      "tradeoff_score": 0.9967444261616822
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 1.0,
+        "Asian": 1.0,
+        "Indian": 0.997431506849315,
+        "Others": 0.9976878612716763
+      },
+      "accuracy_variance": 1.4970001698827526e-06,
+      "accuracy_std": 0.0012235195829584228,
+      "max_min_gap": 0.0025684931506849695,
+      "mean_accuracy": 0.9987798420302478,
+      "tradeoff_score": 0.9981680822387686
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9937694704049844,
+        "Asian": 0.9991922455573505,
+        "Indian": 0.9991438356164384,
+        "Others": 0.9976878612716763
+      },
+      "accuracy_variance": 4.876840978584264e-06,
+      "accuracy_std": 0.0022083570767845186,
+      "max_min_gap": 0.0054227751523661105,
+      "mean_accuracy": 0.9974483532126124,
+      "tradeoff_score": 0.9963441746742201
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9968847352024922,
+        "Asian": 0.9991922455573505,
+        "Indian": 1.0,
+        "Others": 0.9953757225433526
+      },
+      "accuracy_variance": 3.3693034471166453e-06,
+      "accuracy_std": 0.0018355662469975431,
+      "max_min_gap": 0.0046242774566473965,
+      "mean_accuracy": 0.9978631758257988,
+      "tradeoff_score": 0.9969453927023
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.9968847352024922,
+        "Asian": 1.0,
+        "Indian": 0.997431506849315,
+        "Others": 0.9976878612716763
+      },
+      "accuracy_variance": 1.416106601834861e-06,
+      "accuracy_std": 0.001190002773876961,
+      "max_min_gap": 0.0031152647975077885,
+      "mean_accuracy": 0.9980010258308709,
+      "tradeoff_score": 0.9974060244439324
+    }
+  ],
+  "val_metrics": [
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.21428571428571427,
+        "Asian": 0.8031746031746032,
+        "Indian": 0.676056338028169,
+        "Others": 0.7436974789915967
+      },
+      "accuracy_variance": 0.05403568466268978,
+      "accuracy_std": 0.23245576926092795,
+      "max_min_gap": 0.5888888888888889,
+      "mean_accuracy": 0.6093035336200208,
+      "tradeoff_score": 0.4930756489895568
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.32142857142857145,
+        "Asian": 0.8634920634920635,
+        "Indian": 0.6971830985915493,
+        "Others": 0.7815126050420168
+      },
+      "accuracy_variance": 0.04301202382311133,
+      "accuracy_std": 0.20739340351879887,
+      "max_min_gap": 0.5420634920634921,
+      "mean_accuracy": 0.6659040846385502,
+      "tradeoff_score": 0.5622073828791507
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.6666666666666666,
+        "Asian": 0.8476190476190476,
+        "Indian": 0.897887323943662,
+        "Others": 0.6512605042016807
+      },
+      "accuracy_variance": 0.011772029484970026,
+      "accuracy_std": 0.10849898379694635,
+      "max_min_gap": 0.2466268197419813,
+      "mean_accuracy": 0.7658583856077642,
+      "tradeoff_score": 0.711608893709291
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.6309523809523809,
+        "Asian": 0.8507936507936508,
+        "Indian": 0.8063380281690141,
+        "Others": 0.7899159663865546
+      },
+      "accuracy_variance": 0.006894488101500512,
+      "accuracy_std": 0.08303305427057656,
+      "max_min_gap": 0.21984126984126984,
+      "mean_accuracy": 0.7695000065754001,
+      "tradeoff_score": 0.7279834794401118
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.5714285714285714,
+        "Asian": 0.8317460317460318,
+        "Indian": 0.8873239436619719,
+        "Others": 0.773109243697479
+      },
+      "accuracy_variance": 0.014237645925313486,
+      "accuracy_std": 0.1193216071183819,
+      "max_min_gap": 0.3158953722334005,
+      "mean_accuracy": 0.7659019476335135,
+      "tradeoff_score": 0.7062411440743226
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7023809523809523,
+        "Asian": 0.8603174603174604,
+        "Indian": 0.8873239436619719,
+        "Others": 0.680672268907563
+      },
+      "accuracy_variance": 0.008457861069964732,
+      "accuracy_std": 0.09196663019794045,
+      "max_min_gap": 0.20665167475440882,
+      "mean_accuracy": 0.7826736563169869,
+      "tradeoff_score": 0.7366903412180167
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.5952380952380952,
+        "Asian": 0.9047619047619048,
+        "Indian": 0.7852112676056338,
+        "Others": 0.7184873949579832
+      },
+      "accuracy_variance": 0.012532987986951396,
+      "accuracy_std": 0.11195082843351985,
+      "max_min_gap": 0.30952380952380953,
+      "mean_accuracy": 0.7509246656409043,
+      "tradeoff_score": 0.6949492514241444
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7380952380952381,
+        "Asian": 0.9174603174603174,
+        "Indian": 0.8943661971830986,
+        "Others": 0.6302521008403361
+      },
+      "accuracy_variance": 0.013812546285951462,
+      "accuracy_std": 0.11752678965219573,
+      "max_min_gap": 0.2872082166199813,
+      "mean_accuracy": 0.7950434633947475,
+      "tradeoff_score": 0.7362800685686497
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7261904761904762,
+        "Asian": 0.8698412698412699,
+        "Indian": 0.8908450704225352,
+        "Others": 0.6470588235294118
+      },
+      "accuracy_variance": 0.010219588535555418,
+      "accuracy_std": 0.10109198056995133,
+      "max_min_gap": 0.24378624689312345,
+      "mean_accuracy": 0.7834839099959233,
+      "tradeoff_score": 0.7329379197109477
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7380952380952381,
+        "Asian": 0.8571428571428571,
+        "Indian": 0.9119718309859155,
+        "Others": 0.6596638655462185
+      },
+      "accuracy_variance": 0.009763772704695492,
+      "accuracy_std": 0.09881180448051484,
+      "max_min_gap": 0.252307965439697,
+      "mean_accuracy": 0.7917184479425573,
+      "tradeoff_score": 0.7423125457022999
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7380952380952381,
+        "Asian": 0.8952380952380953,
+        "Indian": 0.8380281690140845,
+        "Others": 0.7563025210084033
+      },
+      "accuracy_variance": 0.004016695273198178,
+      "accuracy_std": 0.06337740349050423,
+      "max_min_gap": 0.15714285714285714,
+      "mean_accuracy": 0.8069160058389553,
+      "tradeoff_score": 0.7752273040937032
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.6547619047619048,
+        "Asian": 0.9142857142857143,
+        "Indian": 0.9190140845070423,
+        "Others": 0.6722689075630253
+      },
+      "accuracy_variance": 0.016060374495201066,
+      "accuracy_std": 0.12672953284535166,
+      "max_min_gap": 0.2642521797451375,
+      "mean_accuracy": 0.7900826527794216,
+      "tradeoff_score": 0.7267178863567457
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7142857142857143,
+        "Asian": 0.9079365079365079,
+        "Indian": 0.8732394366197183,
+        "Others": 0.7478991596638656
+      },
+      "accuracy_variance": 0.006651425253942445,
+      "accuracy_std": 0.08155627047592628,
+      "max_min_gap": 0.19365079365079363,
+      "mean_accuracy": 0.8108402046264516,
+      "tradeoff_score": 0.7700620693884884
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7261904761904762,
+        "Asian": 0.9015873015873016,
+        "Indian": 0.8943661971830986,
+        "Others": 0.7058823529411765
+      },
+      "accuracy_variance": 0.008333641885887103,
+      "accuracy_std": 0.091288782913823,
+      "max_min_gap": 0.1957049486461251,
+      "mean_accuracy": 0.8070065819755132,
+      "tradeoff_score": 0.7613621905186018
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7142857142857143,
+        "Asian": 0.9015873015873016,
+        "Indian": 0.8908450704225352,
+        "Others": 0.7310924369747899
+      },
+      "accuracy_variance": 0.007577647190988504,
+      "accuracy_std": 0.08704968231411592,
+      "max_min_gap": 0.1873015873015873,
+      "mean_accuracy": 0.8094526308175853,
+      "tradeoff_score": 0.7659277896605274
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7261904761904762,
+        "Asian": 0.873015873015873,
+        "Indian": 0.8063380281690141,
+        "Others": 0.8151260504201681
+      },
+      "accuracy_variance": 0.0027353287183327184,
+      "accuracy_std": 0.052300370154834644,
+      "max_min_gap": 0.14682539682539686,
+      "mean_accuracy": 0.8051676069488829,
+      "tradeoff_score": 0.7790174218714656
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.6309523809523809,
+        "Asian": 0.8888888888888888,
+        "Indian": 0.8345070422535211,
+        "Others": 0.773109243697479
+      },
+      "accuracy_variance": 0.009269144815067529,
+      "accuracy_std": 0.09627639801668698,
+      "max_min_gap": 0.2579365079365079,
+      "mean_accuracy": 0.7818643889480674,
+      "tradeoff_score": 0.7337261899397239
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.6904761904761905,
+        "Asian": 0.8920634920634921,
+        "Indian": 0.8908450704225352,
+        "Others": 0.7142857142857143
+      },
+      "accuracy_variance": 0.009008228168661725,
+      "accuracy_std": 0.09491168615434943,
+      "max_min_gap": 0.20158730158730165,
+      "mean_accuracy": 0.7969176168119831,
+      "tradeoff_score": 0.7494617737348084
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.6547619047619048,
+        "Asian": 0.9301587301587302,
+        "Indian": 0.8556338028169014,
+        "Others": 0.7184873949579832
+      },
+      "accuracy_variance": 0.01183885781857335,
+      "accuracy_std": 0.10880651551526384,
+      "max_min_gap": 0.2753968253968254,
+      "mean_accuracy": 0.78976045817388,
+      "tradeoff_score": 0.7353572004162481
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7380952380952381,
+        "Asian": 0.8920634920634921,
+        "Indian": 0.8556338028169014,
+        "Others": 0.7394957983193278
+      },
+      "accuracy_variance": 0.004725972407343587,
+      "accuracy_std": 0.06874570828308911,
+      "max_min_gap": 0.15396825396825398,
+      "mean_accuracy": 0.8063220828237398,
+      "tradeoff_score": 0.7719492286821953
+    },
+    {
+      "per_race_accuracy": {
+        "Caucasian": 0.0,
+        "African American": 0.7023809523809523,
+        "Asian": 0.8984126984126984,
+        "Indian": 0.9014084507042254,
+        "Others": 0.726890756302521
+      },
+      "accuracy_variance": 0.008657893615354698,
+      "accuracy_std": 0.09304780285076428,
+      "max_min_gap": 0.19902749832327304,
+      "mean_accuracy": 0.8072732144500994,
+      "tradeoff_score": 0.7607493130247173
+    }
+  ]
+}

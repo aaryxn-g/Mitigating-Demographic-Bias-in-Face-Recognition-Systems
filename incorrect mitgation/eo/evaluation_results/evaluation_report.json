@@ -1,0 +1,155 @@
+{
+  "baseline": {
+    "overall_accuracy": 0.721881390593047,
+    "per_race_metrics": {
+      "Caucasian": {
+        "accuracy": 0.8977556109725686,
+        "count": 802,
+        "avg_confidence": 0.9446805119514465,
+        "correct": 720,
+        "incorrect": 82
+      },
+      "African American": {
+        "accuracy": 0.2638888888888889,
+        "count": 72,
+        "avg_confidence": 0.8043369650840759,
+        "correct": 19,
+        "incorrect": 53
+      },
+      "Asian": {
+        "accuracy": 0.717741935483871,
+        "count": 248,
+        "avg_confidence": 0.9038011431694031,
+        "correct": 178,
+        "incorrect": 70
+      },
+      "Indian": {
+        "accuracy": 0.5767195767195767,
+        "count": 189,
+        "avg_confidence": 0.8520493507385254,
+        "correct": 109,
+        "incorrect": 80
+      },
+      "Others": {
+        "accuracy": 0.21153846153846154,
+        "count": 156,
+        "avg_confidence": 0.8387410044670105,
+        "correct": 33,
+        "incorrect": 123
+      }
+    },
+    "accuracy_variance": 0.06896891040724515,
+    "accuracy_std": 0.26261932603531896,
+    "max_min_gap": 0.686217149434107,
+    "mean_accuracy": 0.5335288947206733,
+    "demographic_parity": {
+      "Caucasian": 0.5466939331970007,
+      "African American": 0.049079754601226995,
+      "Asian": 0.169052488070893,
+      "Indian": 0.12883435582822086,
+      "Others": 0.10633946830265849
+    },
+    "equalized_odds": {
+      "Caucasian": {
+        "tpr": 0.8977556109725686,
+        "fpr": 0.0
+      },
+      "African American": {
+        "tpr": 0.2638888888888889,
+        "fpr": 0.0
+      },
+      "Asian": {
+        "tpr": 0.717741935483871,
+        "fpr": 0.0
+      },
+      "Indian": {
+        "tpr": 0.5767195767195767,
+        "fpr": 0.0
+      },
+      "Others": {
+        "tpr": 0.21153846153846154,
+        "fpr": 0.0
+      }
+    }
+  },
+  "mitigated": {
+    "overall_accuracy": 0.31901840490797545,
+    "per_race_metrics": {
+      "Caucasian": {
+        "accuracy": 0.006234413965087282,
+        "count": 802,
+        "avg_confidence": 0.9597499966621399,
+        "correct": 5,
+        "incorrect": 797
+      },
+      "African American": {
+        "accuracy": 0.1527777777777778,
+        "count": 72,
+        "avg_confidence": 0.917342483997345,
+        "correct": 11,
+        "incorrect": 61
+      },
+      "Asian": {
+        "accuracy": 0.7741935483870968,
+        "count": 248,
+        "avg_confidence": 0.9507231116294861,
+        "correct": 192,
+        "incorrect": 56
+      },
+      "Indian": {
+        "accuracy": 0.7301587301587301,
+        "count": 189,
+        "avg_confidence": 0.9344001412391663,
+        "correct": 138,
+        "incorrect": 51
+      },
+      "Others": {
+        "accuracy": 0.782051282051282,
+        "count": 156,
+        "avg_confidence": 0.9336810111999512,
+        "correct": 122,
+        "incorrect": 34
+      }
+    },
+    "accuracy_variance": 0.114295981258195,
+    "accuracy_std": 0.33807688660746243,
+    "max_min_gap": 0.7758168680861948,
+    "mean_accuracy": 0.4890831504679948,
+    "demographic_parity": {
+      "Caucasian": 0.5466939331970007,
+      "African American": 0.049079754601226995,
+      "Asian": 0.169052488070893,
+      "Indian": 0.12883435582822086,
+      "Others": 0.10633946830265849
+    },
+    "equalized_odds": {
+      "Caucasian": {
+        "tpr": 0.006234413965087282,
+        "fpr": 0.0
+      },
+      "African American": {
+        "tpr": 0.1527777777777778,
+        "fpr": 0.0
+      },
+      "Asian": {
+        "tpr": 0.7741935483870968,
+        "fpr": 0.0
+      },
+      "Indian": {
+        "tpr": 0.7301587301587301,
+        "fpr": 0.0
+      },
+      "Others": {
+        "tpr": 0.782051282051282,
+        "fpr": 0.0
+      }
+    }
+  },
+  "verdict": {
+    "fairness_improved": false,
+    "utility_maintained": false,
+    "std_reduction": -0.07545756057214348,
+    "gap_reduction": -0.08959971865208771,
+    "mean_accuracy_change": -0.044445744252678554
+  }
+}
